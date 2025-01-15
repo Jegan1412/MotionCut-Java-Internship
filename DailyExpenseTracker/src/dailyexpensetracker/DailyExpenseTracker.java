@@ -67,7 +67,7 @@ class Expense {
 class ExpenseManager {
     private List<Expense> expenses;
     private int expenseCounter;
-    private final String filePath = "expenses.txt";
+    private final String filePath = "daily_expenses.txt";
 
     public ExpenseManager() {
         this.expenses = new ArrayList<>();
