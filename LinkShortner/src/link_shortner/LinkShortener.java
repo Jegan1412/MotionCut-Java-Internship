@@ -4,8 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class LinkShortener {
-
-    // HashMaps to store mappings
+    
     private final HashMap<String, String> shortToLong = new HashMap<>();
     private final HashMap<String, String> longToShort = new HashMap<>();
     private final String characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
